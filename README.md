@@ -8,5 +8,5 @@ REST API using AdonisJs, focusing on the following features:
 4. Admin can register
 5. Admin can login
 6. Admin can view Users
-*** Please note that the implementation should incorporate JWT (JSON Web
+## Please note that the implementation should incorporate JWT (JSON Web
 Tokens) for authentication.
