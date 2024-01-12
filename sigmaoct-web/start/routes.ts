@@ -24,11 +24,23 @@ Route.get('/', async ({ view }) => {
   return view.render('welcome')
 })
 
-Route.post('/register', async ({ view }) => {
-  return view.render('register/view')
+Route.get('/register', async ({ view }) => {
+  return view.render('register.view')
 })
 
 Route.get('/login', async ({ view }) => {
   return view.render('login/view')
+})
+
+Route.get('/dashboard', async ({ view }) => {
+  return view.render('dashboard/view')
+})
+
+Route.get('/update', async ({ view }) => {
+  return view.render('update/view')
+})
+
+Route.get('/delete', async ({ view }) => {
+  return view.render('delete/view')
 })
 
